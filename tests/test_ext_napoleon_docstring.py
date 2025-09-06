@@ -1411,9 +1411,9 @@ x1, x2 : array_like, optional
         actual = str(NumpyDocstring(docstring, config))
         expected = """\
 :param x1: Input arrays, description of x1, x2.
-:type x1: :class:`array_like, optional`
+:type x1: :class:`array_like`, *optional*
 :param x2: Input arrays, description of x1, x2.
-:type x2: :class:`array_like, optional`
+:type x2: :class:`array_like`, *optional*
 """
         self.assertEqual(expected, actual)
 
